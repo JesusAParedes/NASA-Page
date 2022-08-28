@@ -45,13 +45,13 @@ img {
 
 p {
     /* column-gap: 20px; */
-    width: 270px;
+    width: 240px;
     display: flex;
     flex-direction: column;
-    
     background-color: rgb(155, 150, 150);
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 main {
@@ -69,25 +69,41 @@ main {
     margin-top: 20px;
 }
 
+.Special-two {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 label {
     display: flex;
 }
 
 input {
     display: flex;
-    width: 230px;
+    width: 200px;
     /* margin: auto; */
 }
 
 .Message {
-    height: 90px;
+    height: 70px;
 
+}
+
+.two {
+    padding-left: 10px;
 }
 
 button {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 72px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 82px;
     background-color: rgb(168, 46, 168);
     color: white;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
 }
