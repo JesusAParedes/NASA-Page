@@ -3,7 +3,7 @@ body {
 }
 
 .main-container {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     height: 450px;
     width: 850px;
     display: flex;
@@ -16,13 +16,14 @@ body {
     justify-content: center;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 15%;
-    left: 31%;
+    top: 20%;
+    left: 32%;
+    font-size: 75px;
     
 }
 .top-main {
-    border: 2px solid green;
-    height: 50%;
+    /* border: 2px solid green; */
+    height: 100%;
     flex: 2;
 }
 
@@ -31,22 +32,62 @@ img {
     width: 100%;
 }
 
-section {
-    border: 2px solid rgba(255, 0, 119, 0.685);
+.section-container {
+    /* border: 2px solid rgba(255, 0, 119, 0.685); */
     height: 324px;
     width: 850px;
     flex: 1;
     color: white;
     display: flex;
     gap: 20px;
+    background-color: rgb(155, 150, 150);
 }
 
 p {
-    column-gap: 20px;
+    /* column-gap: 20px; */
     width: 270px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(155, 150, 150);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-p {
+main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(155, 150, 150);
+    margin: auto;
+}
+
+.Special {
     display: flex;
-    
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+}
+
+input {
+    display: flex;
+    width: 230px;
+    /* margin: auto; */
+}
+
+.Message {
+    height: 90px;
+
+}
+
+button {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 72px;
+    background-color: rgb(168, 46, 168);
+    color: white;
 }
